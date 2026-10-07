@@ -56,7 +56,7 @@ After publication approval and with suitable GitHub permissions:
 
 1. Commit the reviewed source and push a `main` branch to the existing repository.
 2. In repository **Settings → Pages**, choose **GitHub Actions** as source. Verify the repository and site visibility separately.
-3. Run **Build and deploy Pages** from Actions. It runs tests, browser checks and build; configures Pages with `actions/configure-pages@v5`, uploads `dist` with `actions/upload-pages-artifact@v4`, and deploys using `actions/deploy-pages@v4`. The deploy job uses `pages: write`, `id-token: write` and the `github-pages` environment.
+3. Run **Build and deploy Pages** from Actions. It runs tests, browser checks and build; configures Pages with `actions/configure-pages@v6`, uploads `dist` with `actions/upload-pages-artifact@v5`, and deploys using `actions/deploy-pages@v5`. The deploy job uses `pages: write`, `id-token: write` and the `github-pages` environment.
 4. Visit the URL returned by the deployment action, verify loading and refresh at `/Portfolio-Management/`, and test storage and downloads. No live deployment has been claimed until this succeeds.
 
 Official documentation verified during implementation (through their official GitHub source mirrors):
