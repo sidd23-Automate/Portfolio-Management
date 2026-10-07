@@ -78,6 +78,9 @@ function App() {
     [a, setA] = useState(""),
     [b, setB] = useState("");
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [view]);
+  useEffect(() => {
     load()
       .then((d) => {
         setData(d);
