@@ -65,4 +65,4 @@ Official documentation verified during implementation (through their official Gi
 - [Vite static deployment / GitHub Pages](https://vite.dev/guide/static-deploy.html)
 - [ExcelJS API](https://github.com/exceljs/exceljs)
 
-Official raw documentation sources, HTTPS Git reads and GitHub API access were verified. The existing repository is public and account permissions allow administration. Pages publication is pending explicit approval. Never paste tokens in chat.
+Official raw documentation sources, HTTPS Git reads and GitHub API access were verified. The existing repository is public and account permissions allow administration. The Pages workflow is dispatched manually after publication approval. Never paste tokens in chat.
